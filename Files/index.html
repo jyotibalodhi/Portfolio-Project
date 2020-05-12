@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio website</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--font-awesome-->
+    <script src="js/all.js"></script>
+    <!--google fonts-->
+    <link href="" rel="stylesheet">
+</head>
+
+<!--Navigation bar-->
+<body>
+<div class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span></button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml.auto">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--end of Navigation bar-->
+
+<!--Image Slider-->
+<div class="carousel slide" id="slides" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"> </li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block img-fluid" src="images/background.jpg">
+            <div class="carousel-caption mb-4">
+                <h1 class="display-2 heading1 font-weight-bold">Jyoti Balodhi</h1>
+                <h3 class=" sub-heading text-warning">My Portfolio Website</h3>
+            </div>
+        </div>
+         <div class="carousel-item">
+            <img class="d-block img-fluid" src="images/background2.jpg">
+            <div class="carousel-caption mb-4">
+                <h1 class="display-2 heading2 text-dark font-weight-bold">Jyoti Balodhi</h1>
+                <h3 class="text-warning sub-heading">My Portfolio Website</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End of Image Slider-->
+<!--About Me-->
+<div class="container-fluid">
+    <div class="row jumbotron"> 
+        <div class="col-7">
+            <div class="about text-dark text-center font-weight-bold my-2 mx-3">
+                <p class="about_heading">About Me</p> 
+            </div>
+            <p class="lead">I am a Computer Science major, and tech enthusiast currently attending a sophomore year at
+                Delhi University. I aim to leverage my proven technical, leadership, and management skills.
+                Frequently praised as adaptable by my peers and seniors, I am a team player and can be relied
+                upon to fulfil the responsibilities given to me.</p>
+        </div>
+        <div class="col-5 img" alt="Responsive image">
+            <img src="images/photo.jpg" class="img-fluid img_me" alt="Responsive image"/>
+        </div>
+    </div>
+</div>
+<!--End of About Me-->
+
+
+
+    <!--jquery-->
+<script src="js/jquery-3.5.1.js"></script>
+<!--bootstrap js-->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
