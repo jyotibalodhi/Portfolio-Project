@@ -83,16 +83,26 @@ body {
 .img_me {
   max-width: 5rem;
   margin-top: relative;
-  padding: 10% ;
   display: flex;
+  padding:20%;
   justify-content: center;
   align-items: center;
 }
+
  .Experience{
    display:flex;
    align-items: center;
    justify-content: center;
  }
+
+ .card-body{
+  box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+
+.card-body:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 
  .time{
   display:flex;
