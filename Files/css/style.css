@@ -1,4 +1,3 @@
-
 body {
   font-family: "Zilla Slab", serif;
 }
@@ -9,14 +8,8 @@ body {
 
 /* Media Queries*/
 @media (min-width: 993px) {
-  .img_me {
-    max-height: 30% !important;
-  }
 }
 @media (max-width: 992px) {
-  .img_me {
-    max-height: 40% !important;
-  }
 }
 
 @media (max-width: 800px) {
@@ -35,9 +28,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  .about-section {
-    font-size: none !important;
-  }
 }
 
 .carousel-item.active,
@@ -72,6 +62,7 @@ body {
   font-size: 40px;
   white-space: nowrap;
   overflow: hidden;
+  margin-top:30px;
   margin-bottom: 40px;
 }
 
@@ -85,22 +76,29 @@ body {
   max-width: 5rem;
   margin-top: relative;
   display: flex;
-  padding:20%;
+  padding:17%;
   justify-content: center;
   align-items: center;
 }
 
  .Experience{
-   display:flex;
-   align-items: center;
-   justify-content: center;
+   padding-bottom: 5%;
  }
 
- .card-body{
+ .fa-briefcase{
+  background: rgb(243, 186, 164);
+  padding: 5px;
+  border-radius: 60%;
+  z-index:100;
+ }
+ .experience-info{
+  background-color: rgb(255, 255, 255);
+  padding: 5%;
+  margin-bottom: 5%;
   box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
  }
 
-.card-body:hover{
+.experience-info:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -110,3 +108,42 @@ body {
   align-items: center;
   justify-content: center;
  }
+
+ .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-graduation-cap{
+  background: white;
+  padding: 2px;
+  border-radius: 50%;
+  z-index:100;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color:#FF9F55;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width:4px;
+}
+
+ .education-info{
+   background-color: rgb(248, 248, 239);
+   padding: 2%;
+   margin-bottom: 5%;
+   box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+
+ .education-info:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
