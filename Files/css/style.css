@@ -1,7 +1,6 @@
 body {
   font-family: "Zilla Slab", serif;
 }
-
 .carousel-item {
   max-height: 85vh;
 }
@@ -76,24 +75,26 @@ body {
   max-width: 5rem;
   margin-top: relative;
   display: flex;
-  padding:17%;
+  padding:20%;
   justify-content: center;
   align-items: center;
 }
 
- .Experience{
-   padding-bottom: 5%;
- }
+ .experience-section{
+    background-image: url("/Portfolio/images/ex-bg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
 
  .fa-briefcase{
   background: rgb(243, 186, 164);
-  padding: 5px;
-  border-radius: 60%;
+  padding: 7px;
+  border-radius: 50%;
   z-index:100;
  }
- 
  .experience-info{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 233, 233);
   padding: 5%;
   margin-bottom: 5%;
   box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -129,13 +130,13 @@ body {
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
   background-color:#FF9F55;
   top: 0;
   bottom: 0;
   left: 50%;
   width:4px;
 }
+
 
  .education-info{
    background-color: rgb(248, 248, 239);
@@ -147,4 +148,49 @@ body {
  .education-info:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.skill-heading{
+  margin-top: 2.5rem;
+  color: #dd4b11;
+}
+
+.skills-section{
+  background-image: url("/Portfolio/images/skill-bg.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: #ffffff;
+}
+
+.skills-section .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills-section .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.skills-section .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills-section .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills-section .progress-bar {
+  width: 1px;
+  height: 15px;
+  transition: .9s;
+  background-color: #dd4b11;
 }
