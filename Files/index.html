@@ -87,11 +87,11 @@
 
     <div class="container">
         <div class="row">
-          <div class="col-12 about text-dark text-center font-weight-bold my-2">
-            <h1 class="about_heading font-weight-bold">About Me</h1>
+          <div class="col-12 about text-dark text-center my-2">
+            <h1 class="about_heading ">About Me</h1>
             <hr>
           </div>
-          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+          <div class="col-12 col-md-7 col-lg-7 col-xl-7">
             <div >
               <p class="lead font-italic text-center">
                 <strong
@@ -114,7 +114,7 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 img" alt="Responsive image">
+          <div class="col-12 col-md-5 col-lg-5 col-xl-5 img" alt="Responsive image">
             <div class="img-container">
               <img
                 src="images/photo.jpg"
@@ -134,23 +134,23 @@
 
   <div class="container-fluid">
   <div class="row">
-    <h1 class="col-12 text-center">Experience</h1>
-    <div class="col-5 time">
+    <h1 class="col-12 text-center exp-title">Experience</h1>
+    <div class="col-12 col-md-5 time">
       <i class="fa fa-briefcase fa-2x"></i>
-        <span class="ml-2 col-xs-12 font-weight-bold ">April 2020- Present</span>
+        <span class="ml-2 font-weight-bold ">April 2020- Present</span>
     </div>
-    <div class="col-7">
+    <div class="col-12 col-md-7 ">
       <div class="experience-info" style="min-width: 16rem;">
          <h5 class="ex-title ">GirlScript</h5>
           <h6 class="ex-subtitle mb-2 text-muted">Chapter Leader</h6>
              <p class="ex-text"><br>Planning and organizing for well-balanced events in various technical and non-technical profiles. Mentoring for the programs and managing the team of campus ambassadors and volunteers in the city.</p>
         </div>
       </div>
-    <div class="col-5 time">
+    <div class="col-12 col-md-5 time">
       <i class="fa fa-briefcase fa-2x"></i>
         <span class=" ml-2 font-weight-bold">August 2019 - October 2019</span>
     </div>
-    <div class="col-7">
+    <div class="col-12 col-md-7 ">
       <div class="experience-info"  style="min-width: 16rem;">
           <h5 class="ex-title ">9LedgePro</h5>
           <h6 class="ex-subtitle mb-2 text-muted">Technical Consultant Intern</h6>
@@ -167,15 +167,15 @@
 <section class="education-section">
 
  <div class="container">
-     <div class="row mb-5">
-       <div class="col-12 text-center">
+     <div class="row mb-5 mr-2">
+       <div class="col-12 text-center edu-heading">
          <h1>Education</h1>
          <hr>
        </div>
        <div class="col-2 timeline">
         <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
        </div>
-         <div class="col-10 education-info">
+         <div class="col-10 mb-5 education-info">
           <h5 class="edu-title ">Mata Sundri College for Women, University of Delhi</h5>
           <h6 class="edu-subtitle mb-2 text-muted">July 2018-Present <br> Bsc (Hons) Computer Science</h6> 
           Currently attending 2nd year of Bachelor's in Mata Sundri College for Women, DU. Delhi University has always been a subject of interest to the young minds.
@@ -205,13 +205,13 @@
       <div class="section-title text-center">
         <h1 class="skill-heading">Skills</h1><br>
         <p>Being a Computer Science student I have good knowledge of various programming languages.
-          I am a keen learner and currently exploring the field of web development.Also I am a 
+          I am a keen learner and currently exploring the field of web development. Also, I am a 
           confident public speaker, and efficient in managing and leading a team.
         </p>
       </div>
 
       <div class="row skills-content">
-        <div class="col-lg-6">
+        <div class="col-md-6">
 
           <div class="progress">
             <span class="skill">C++ <i class="val">90%</i></span>
@@ -243,7 +243,7 @@
 
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="progress">
             <span class="skill">Data Structures <i class="val">85%</i></span>
             <div class="progress-bar-wrap">
@@ -274,10 +274,40 @@
         </div>
       </div>
     </div>
-    
   </section>
 
    <!--End of Skills section-->
+
+   <!--Contact section-->
+
+   <section class="contact-section">
+
+    <div class="container">
+      <div class="row">
+      <div class="col-12 contact-title text-center">
+        <h1>Get in touch</h1>
+      </div>
+      <form class="form-inline d-flex justify-content-center" action="page.php" method="POST">
+        <div class="col-12 form-group">
+          <label for="email-name" class="col-4 font-weight-bold">Name</label>
+          <input type="text" class="col-8 form-control" id="email-name" placeholder="Your Name">
+        </div>
+        <div class="col-12 form-group">
+          <label for="email-add" class=" col-4 font-weight-bold">Email address</label>
+          <input type="email" class="col-8 form-control" id="email-add" placeholder="name@example.com">
+        </div>
+        <div class="col-12 form-group">
+          <label for="email-text"class="col-4 font-weight-bold">Your Message</label>
+          <textarea class="col-8 form-control" id="email-text" rows="3"></textarea>
+        </div>
+      </form>
+      </div>
+    </div>
+    <button type="button" class=" btn btn-outline-success float-right px-5 font-weight-bold">Send</button>
+   </section>
+   <!--End of Contact section-->
+
+
     <!--js script-->
     <script src="js/main.js"></script>
     <!--jquery-->

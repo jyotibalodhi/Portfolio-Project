@@ -6,34 +6,52 @@ body {
 }
 
 /* Media Queries*/
-@media (min-width: 993px) {
-}
-@media (max-width: 992px) {
-}
 
-@media (max-width: 800px) {
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  .time{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+   }
+ }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
   .heading1 {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
   .heading2 {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
   .sub-heading {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
-  .img_me {
-    max-height: 40% !important;
-  }
-}
+ }
 
-@media (max-width: 576px) {
-}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+  .time{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+   }
+ }
 
+/* Media Queries End*/
+ 
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
 }
+
 
 /*Firefox bug Fix*/
 .carousel-item {
@@ -57,7 +75,7 @@ body {
 }
 
 .about_heading {
-  font-family: "Lato", cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 40px;
   white-space: nowrap;
   overflow: hidden;
@@ -80,6 +98,10 @@ body {
   align-items: center;
 }
 
+.exp-title{
+  font-family: 'Permanent Marker', cursive;
+}
+
  .experience-section{
     background-image: url("/Portfolio/images/ex-bg.jpg"); 
     background-repeat: no-repeat;
@@ -88,11 +110,12 @@ body {
   }
 
  .fa-briefcase{
-  background: rgb(243, 186, 164);
+  background: rgb(245, 187, 132);
   padding: 7px;
   border-radius: 50%;
   z-index:100;
  }
+
  .experience-info{
   background-color: rgb(241, 233, 233);
   padding: 5%;
@@ -105,11 +128,6 @@ body {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
- .time{
-  display:flex;
-  align-items: center;
-  justify-content: center;
- }
 
  .timeline {
   position: relative;
@@ -137,6 +155,9 @@ body {
   width:4px;
 }
 
+.edu-heading{
+  font-family: 'Permanent Marker', cursive;
+}
 
  .education-info{
    background-color: rgb(248, 248, 239);
@@ -151,6 +172,7 @@ body {
 }
 
 .skill-heading{
+  font-family: 'Permanent Marker', cursive;
   margin-top: 2.5rem;
   color: #dd4b11;
 }
@@ -193,4 +215,14 @@ body {
   height: 15px;
   transition: .9s;
   background-color: #dd4b11;
+}
+
+.contact-title{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.contact-section{
+  background-image: url("/Portfolio/images/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
