@@ -137,6 +137,8 @@ body {
 
 /*Experience Section End */
 
+/*Education Section */
+
  .timeline {
   position: relative;
   max-width: 1200px;
@@ -178,6 +180,10 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+
+/*Education Section End */
+
+/*Skill section  */
 
 .skill-heading{
   font-family: 'Permanent Marker', cursive;
@@ -225,6 +231,10 @@ body {
   background-color: #dd4b11;
 }
 
+/*Skill Section End */
+
+/*Contact Section */
+
 .contact-title{
   font-family: 'Permanent Marker', cursive;
 }
@@ -234,3 +244,5 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*Contact Section Pending */
