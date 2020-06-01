@@ -21,11 +21,21 @@ body {
     align-items: center;
     justify-content:center;
    }
+
+   .html{
+     font-size: 150%;
+   }
  }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-
+  .btn{
+    font-weight: bold;
+    width:80vh;
+    margin-left: auto;
+    margin-right:10vh;
+    padding: 1rem;
+  }
  }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -66,6 +76,7 @@ body {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Bootstrap Padding Fix */
@@ -255,7 +266,7 @@ body {
 .contact-section{
   display:flex;
   justify-content: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker';
   color: #000000;
 }
 
