@@ -21,21 +21,17 @@ body {
     align-items: center;
     justify-content:center;
    }
-
-   .html{
-     font-size: 150%;
-   }
  }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-  .btn{
-    font-weight: bold;
-    width:80vh;
-    margin-left: auto;
-    margin-right:10vh;
-    padding: 1rem;
-  }
+.btn{
+  font-weight: bold;
+  width:80vh;
+  margin-left: auto;
+  margin-right:10vh;
+  padding:1rem;
+}
  }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -76,7 +72,6 @@ body {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-  font-family: 'Lato', sans-serif;
 }
 
 /* Bootstrap Padding Fix */
@@ -125,7 +120,7 @@ body {
 }
 
  .experience-section{
-    background-image: url("/Portfolio/images/ex-bg.jpg"); 
+    background-image: url("/images/ex-bg.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -208,7 +203,7 @@ body {
 }
 
 .skills-section{
-  background-image: url("/Portfolio/images/skill-bg.jpg"); 
+  background-image: url("/images/skill-bg.jpg"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -258,7 +253,7 @@ body {
 }
 
 #contact{
-  background-image: url("/Portfolio/images/contact-bg.jpg");
+  background-image: url("/images/contact-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -278,11 +273,7 @@ font-size: 1.2rem;
   font-weight: bold;
   width:80vh;
   margin-left: auto;
+  margin-right:10vh;
 }
 
-/*Contact Section Pending */
-
-
-.footer{
-  background-color: rgb(199, 113, 47);
-}
+/*Contact Section End */
