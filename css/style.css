@@ -1,10 +1,9 @@
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Zilla Slab", serif;
+  font-family: "Scope One", serif;
 }
 
 .carousel-item {
@@ -13,57 +12,52 @@ body {
 
 /* Media Queries*/
 
-
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-  .time{
-    display:flex;
+@media (min-width: 992px) {
+  .time {
+    display: flex;
     align-items: center;
-    justify-content:center;
-   }
- }
+    justify-content: center;
+  }
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-.btn{
-  font-weight: bold;
-  width:80vh;
-  margin-left: auto;
-  margin-right:10vh;
-  padding:1rem;
+@media (max-width: 575.98px) {
+  .btn {
+    font-weight: bold;
+    width: 80vh;
+    margin-left: auto;
+    margin-right: 10vh;
+    padding: 1rem;
+  }
 }
- }
 
 /* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
-  .heading1 {
-    font-size: 2rem !important;
-  }
-  .heading2 {
+@media (max-width: 767.98px) {
+  .heading {
     font-size: 2rem !important;
   }
   .sub-heading {
     font-size: 1rem !important;
   }
- }
+}
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
-  .time{
-    display:flex;
+@media (max-width: 991.98px) {
+  .time {
+    display: flex;
     align-items: center;
-    justify-content:flex-start;
-   }
- }
+    justify-content: flex-start;
+  }
+}
 
 /* Media Queries End*/
- 
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
 }
-
 
 /*Firefox bug Fix*/
 .carousel-item {
@@ -79,7 +73,11 @@ body {
   padding: 1rem;
 }
 
+.heading {
+  font-family: "Rubik", sans-serif;
+}
 .sub-heading {
+  font-family: "Nunito Sans", sans-serif;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -88,12 +86,16 @@ body {
 /*About Section */
 
 .about_heading {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 40px;
   white-space: nowrap;
   overflow: hidden;
-  margin-top:30px;
+  margin-top: 30px;
   margin-bottom: 40px;
+}
+
+.about-section {
+  font-family: "Scope One", serif;
 }
 
 .img {
@@ -106,7 +108,7 @@ body {
   max-width: 5rem;
   margin-top: relative;
   display: flex;
-  padding:20%;
+  padding: 20%;
   justify-content: center;
   align-items: center;
 }
@@ -115,95 +117,97 @@ body {
 
 /*Experience Section*/
 
-.exp-title{
-  font-family: 'Permanent Marker', cursive;
+.exp-title {
+  font-family: "Nunito Sans", sans-serif;
 }
 
- .experience-section{
-    background-image: url("/images/ex-bg.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-  }
+.experience-section {
+  background-image: url("/Portfolio/images/ex-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
- .fa-briefcase{
+.fa-briefcase {
   background: rgb(245, 187, 132);
   padding: 7px;
   border-radius: 50%;
-  z-index:100;
- }
+  z-index: 100;
+}
 
- .experience-info{
+.experience-info {
+  font-family: "Scope One", serif;
   background-color: rgb(241, 233, 233);
   padding: 5%;
   margin-bottom: 5%;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
- }
-
-.experience-info:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.experience-info:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 0px 0pc 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 
 /*Experience Section End */
 
 /*Education Section */
 
- .timeline {
+.timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fa-graduation-cap{
+.fa-graduation-cap {
   background: white;
   padding: 2px;
   border-radius: 50%;
-  z-index:100;
+  z-index: 100;
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
-  background-color:#FF9F55;
+  background-color: #ff9f55;
   top: 0;
   bottom: 0;
   left: 50%;
-  width:4px;
+  width: 4px;
 }
 
-.edu-heading{
-  font-family: 'Permanent Marker', cursive;
+.edu-heading {
+  font-family: "Nunito Sans", sans-serif;
 }
 
- .education-info{
-   background-color: rgb(248, 248, 239);
-   padding: 2%;
-   margin-bottom: 5%;
-   box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
- }
+.education-info {
+  font-family: "Scope One", serif;
+  background-color: rgb(248, 248, 239);
+  padding: 2%;
+  margin-bottom: 5%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
 
- .education-info:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0px 0pc 0 rgba(0,0,0,0.19);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.education-info:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 0px 0pc 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 /*Education Section End */
 
 /*Skill section  */
 
-.skill-heading{
-  font-family: 'Permanent Marker', cursive;
+.skill-heading {
+  font-family: "Nunito Sans", sans-serif;
   margin-top: 2.5rem;
   color: #dd4b11;
 }
 
-.skills-section{
-  background-image: url("/images/skill-bg.jpg"); 
+.skills-section {
+  font-family: "Scope One", serif;
+  background-image: url("/Portfolio/images/skill-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -238,7 +242,7 @@ body {
 .skills-section .progress-bar {
   width: 1px;
   height: 15px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #dd4b11;
 }
 
@@ -246,34 +250,35 @@ body {
 
 /*Contact Section */
 
-.contact-title{
-  font-family: 'Permanent Marker', cursive;
+.contact-title {
+  font-family: "Nunito Sans", sans-serif;
   color: black;
   font-size: 2rem;
 }
 
-#contact{
-  background-image: url("/images/contact-bg.jpg");
+#contact {
+  background-image: url("/Portfolio/images/contact-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.contact-section{
-  display:flex;
+.contact-section {
+  display: flex;
   justify-content: center;
-  font-family: 'Permanent Marker';
+  font-family: "Permanent Marker";
   color: #000000;
 }
 
-.form-group{
-font-size: 1.2rem;
+.form-group {
+  font-family: "Scope One", serif;
+  font-size: 1.2rem;
 }
 
-.btn{
+.btn {
   font-weight: bold;
-  width:80vh;
+  width: 80vh;
   margin-left: auto;
-  margin-right:10vh;
+  margin-right: 10vh;
 }
 
 /*Contact Section End */
