@@ -122,7 +122,7 @@ body {
 }
 
 .experience-section {
-  background-image: url("../images/ex-bg.jpg");
+  background-image: url("/jyotibalodhi.github.io/images/ex-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -207,7 +207,7 @@ body {
 
 .skills-section {
   font-family: "Scope One", serif;
-  background-image: url("../images/skill-bg.jpg");
+  background-image: url("/jyotibalodhi.github.io/images/skill-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -257,7 +257,7 @@ body {
 }
 
 #contact {
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("/jyotibalodhi.github.io/images/contact-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
